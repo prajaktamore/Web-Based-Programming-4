@@ -1,0 +1,109 @@
+/*
+    author : Prajakta More
+    date created : 11 Feb 2014
+	Version:  1
+    copyright information : Binghamton University
+*/
+
+/*Defines style for body tag all fields declared in body tag will follow below style for margins and background*/
+body
+{
+margin-top:50px;
+margin-left:50px;
+margin-right:50px;
+margin-bottom:50px;
+background:#154734;
+}
+
+
+
+input#submit {
+    padding: 4px 40px;
+    /*give the background a gradient*/
+    background:#ffae00; /*fallback for browsers that don't support gradients*/
+    background: -webkit-linear-gradient(top, #ffae00, #d67600);
+    background: -moz-linear-gradient(top, #ffae00, #d67600);
+    background: -o-linear-gradient(top, #ffae00, #d67600);
+    background: linear-gradient(top, #ffae00, #d67600);
+    border:2px outset #dad9d8;
+    /*style the text*/
+    font-family:Andika, Arial, sans-serif;
+    font-size:1.1em;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    color:#fff;
+    text-shadow: 0px 1px 10px #000;
+    /*add to small curve to the corners of the button*/
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /*give the button a drop shadow*/
+    -webkit-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+    -moz-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+    box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+    }
+    /****NOW STYLE THE BUTTON'S HOVER STATE***/
+    input#submit:hover, input#submit:focus {
+    border:2px solid #dad9d8;
+    }
+
+
+
+/*Defines style for table tag all fields declared in table tag will follow below style for border*/
+table
+{
+border: 0px solid #154734;
+content-type:text/plain; 
+charset=iso-8859-1 ;
+}
+/*Defines style for table data tag all fields declared in table data tag will follow below style for border and text color */
+td
+{
+border: 0px solid #154734;
+color:white;
+}
+/*Defines style for paragraph tag  with class type defined as ex2 all fields declared in paragraph tag will follow below style for font, color, text align*/
+p.ex2
+{
+font:30px arial,sans-serif,centre;
+color:#ffffff;
+text-align:center;
+}
+/*Defines style for paragraph tag  with class type defined as ex1 all fields declared in paragraph tag will follow below style for font, color, text align*/
+p.ex1
+{
+font:18px arial,sans-serif,centre;
+color:#ffffff;
+text-align:center;
+}
+/*Defines style for img tag all with class name as ex3 fields declared in img tag will 
+follow below style for margins, background, padding, border, background -color, height, width, float, text- align*/
+img.ex3
+{
+  margin: 5px;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
+  height: 375px;
+  width: 250px;
+  float: left;
+  text-align: left;
+}	
+/*Defines style for a href tag and its properties for different states as link, visited, hover, active*/
+a:link {text-decoration:none;
+background-color:#66CCCC;
+color:#000000;
+}
+a:visited {text-decoration:none;
+background-color:#9999CC;
+color:#660033;
+}
+a:hover {text-decoration:underline;
+background-color:#CC99CC;
+color:#000033;
+}
+a:active {text-decoration:underline;
+background-color:#FF99CC;
+color:#330000;
+}
+
